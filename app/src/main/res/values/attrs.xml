@@ -1,0 +1,3 @@
+<declare-styleable name="CustomView">
+    <attr name="colorBackground" format="color"/>
+</declare-styleable>

@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Define Toolbar style -->
+    <style name="Toolbar">
+        <!-- Customize your toolbar style -->
+        <item name="android:background">@color/toolbar_background</item>
+        <item name="android:titleTextColor" tools:targetApi="m">@android:color/white</item>
+    </style>
+
+    <!-- Define ButtonStyle -->
+    <style name="ButtonStyle">
+        <!-- Customize your button style -->
+        <item name="android:background">@color/button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Define ActionBarStyle -->
+    <style name="ActionBarStyle">
+        <!-- Customize your ActionBar style -->
+        <item name="android:background">@color/actionbar_background</item>
+        <item name="android:titleTextColor" tools:targetApi="m">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <!-- Customize primary and secondary colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+
+        <!-- Customize the background color -->
+        <item name="android:windowBackground">@color/windowBackground</item>
+
+        <!-- Customize the status bar color (light/dark mode) -->
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+
+        <!-- Customize the toolbar color -->
+        <item name="toolbarStyle">@style/Toolbar</item>
+
+        <!-- Customize text appearance -->
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+
+        <!-- Customize buttons and other elements -->
+        <item name="buttonStyle">@style/ButtonStyle</item>
+
+        <!-- Customize the AppBar style (action bar) -->
+        <item name="actionBarStyle">@style/ActionBarStyle</item>
+
+        <!-- Customize navigation bar style -->
+        <item name="android:navigationBarColor">@color/navigationBarColor</item>
+
+        <!-- Customize floating action button -->
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Control other UI elements for light and dark themes -->
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorBackground">@color/colorBackground</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+    </style>
+</resources>
